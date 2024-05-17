@@ -1,0 +1,49 @@
+/* table.css */
+
+.table-container {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #f2f2f2;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+  background-color: #f0f0f0;
+}
+
+/* Estilos para imágenes en la tabla */
+td img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto; /* Centrar la imagen */
+}
+
+/* table.css */
+
+/* Otros estilos aquí */
+
+tbody tr:active {
+  transform: scale(1.02); /* Aumenta ligeramente el tamaño al hacer clic */
+  transition: transform 0.2s ease; /* Agrega una transición suave */
+}
